@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&display=swap');
+
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    font-size: 3em;
+}
+
+body{ font-family: 'Open Sans', sans-serif;
+    background: color #f3f3f3;
+}
+
+#First {
+    padding-top: 120px; 
+}
+
+#SecondSection{
+    padding-top: 120px; 
+}
+
+#ThirdSection {
+    padding-top: 120px; 
+}
+
+#images {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    padding-top: 50px;
+    
+}
+
+#images img {
+    width: 70%;
+    max-width: 300px;
+    border: 1px solid black;
+  
+}
+
+#images2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    padding-top: 30px;
+}
+
+#images2 img {
+    width: 70%; 
+    max-width: 600px; 
+    border: 1px solid black; 
+}
+#images3 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    padding-top: 20px;
+}
+
+#images3 img {
+    width: 70%; 
+    max-width: 300px;
+    border: 1px solid black; 
+}
+
+a {
+    display: inline-block; 
+    background-color: #f3f3f3; 
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    padding: 10px 20px; 
+    border: 2px solid black; 
+    text-decoration: none; 
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+a:hover, a:focus {
+    background-color: #c0babf; 
+    border-color: #000000; 
+}
+#Text h2 {
+    position: relative; }
+
+#Text .right-aligned {
+padding-left: 155px;
+}
+
+
+
